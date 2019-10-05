@@ -26,6 +26,8 @@ namespace RecipeWeb
                 app.UseDeveloperExceptionPage();
             }
 
+            //This helps to use bootstrap
+            app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
 
         }
