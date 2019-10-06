@@ -1,18 +1,23 @@
 ﻿
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title></title>
-    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+        <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    </head>
     
-</head>
-<body>
+
+    <body style="background: url('@Url.Content("~/Images/tendencias-recetas-destacada.jpg")');">
+        <div class="text-center">
+            <p>hola mundos</p>
+
+            <a asp-action="Addrecipe" class="text-center">Add Recipe</a>
+            <br />
+
+            <a asp-action="RecipeList">Recipe List</a>
+        </div>
     </body>
-</html>
+    </html>
 
-<p>hola mundos</p>
 
-<a asp-action="Addrecipe">Add Recipe</a>
-<br />
-
-<a asp-action="RecipeList">Recipe List</a>
